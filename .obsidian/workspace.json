@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "4ff038d014829ecd",
+        "id": "0570329237dfb2c3",
         "type": "tabs",
         "children": [
           {
-            "id": "d8667370f68a07db",
+            "id": "a76c07e4d23eda2b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "数据库篇/mysql/day 1.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -69,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "b76cf6ace711568a",
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据库篇/mysql/day 1.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据库篇/mysql/day 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "数据库篇/mysql/day 1.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -147,9 +138,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d8667370f68a07db",
+  "active": "a76c07e4d23eda2b",
   "lastOpenFiles": [
-    "网络篇/未命名.md",
-    "Pasted image 20230223112130.png.md"
+    "3 网络篇/问答篇.md",
+    "0 run篇/准备的资料.md",
+    "2 数据库篇/kafka/为什么kafka的效率那么高？.md",
+    "7 算法篇/数据结构基础/图/1 遍历.md",
+    "7 算法篇/数据结构基础/树/6 哈弗曼树.md",
+    "7 算法篇/数据结构基础/树/5 前缀树.md",
+    "7 算法篇/数据结构基础/树/3 随机数的二叉搜索树.md",
+    "7 算法篇/数据结构基础/树/4 红黑树.md",
+    "7 算法篇/数据结构基础/树/2 平衡二叉树.md",
+    "7 算法篇/数据结构基础/树/1 二叉搜索树.md"
   ]
 }
