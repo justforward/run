@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "0570329237dfb2c3",
+        "id": "1386ad664e91f3f3",
         "type": "tabs",
         "children": [
           {
-            "id": "a76c07e4d23eda2b",
+            "id": "ccfafaed927fb690",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "9 分布式篇/分布式一致性算法.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "9 分布式篇/分布式一致性算法.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "9 分布式篇/分布式一致性算法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "9 分布式篇/分布式一致性算法.md"
+              }
             }
           }
         ],
@@ -138,17 +146,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a76c07e4d23eda2b",
+  "active": "ccfafaed927fb690",
   "lastOpenFiles": [
+    "2 数据库篇/kafka/为什么kafka的效率那么高？.md",
+    "8 消息队列篇/kafka.md",
+    "8 消息队列篇/消息队列.md",
     "3 网络篇/问答篇.md",
     "0 run篇/准备的资料.md",
-    "2 数据库篇/kafka/为什么kafka的效率那么高？.md",
     "7 算法篇/数据结构基础/图/1 遍历.md",
     "7 算法篇/数据结构基础/树/6 哈弗曼树.md",
     "7 算法篇/数据结构基础/树/5 前缀树.md",
     "7 算法篇/数据结构基础/树/3 随机数的二叉搜索树.md",
-    "7 算法篇/数据结构基础/树/4 红黑树.md",
-    "7 算法篇/数据结构基础/树/2 平衡二叉树.md",
-    "7 算法篇/数据结构基础/树/1 二叉搜索树.md"
+    "7 算法篇/数据结构基础/树/4 红黑树.md"
   ]
 }
