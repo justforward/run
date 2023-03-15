@@ -4,47 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "1386ad664e91f3f3",
+        "id": "46c9d52690b02864",
         "type": "tabs",
         "children": [
           {
-            "id": "ccfafaed927fb690",
+            "id": "f60b50024ab565b8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5 框架篇/gin框架.md",
+                "file": "5 框架篇/grpc 框架.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "c2a349ac6b380124",
+            "id": "0b88066849367552",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5 框架篇/gin框架.md",
+                "file": "0 run篇/准备的资料.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "eddb09d5e28abb56",
+            "id": "1b2480d1a10bcc73",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 语言篇/go语言/问答篇/3、内存分配篇.md",
+                "file": "10 运维篇/k8s篇.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 409.5
   },
   "right": {
     "id": "b76cf6ace711568a",
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 语言篇/go语言/问答篇/3、内存分配篇.md",
+                "file": "0 run篇/准备的资料.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 语言篇/go语言/问答篇/3、内存分配篇.md",
+                "file": "0 run篇/准备的资料.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 语言篇/go语言/问答篇/3、内存分配篇.md"
+                "file": "0 run篇/准备的资料.md"
               }
             }
           }
@@ -171,17 +171,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "eddb09d5e28abb56",
+  "active": "0b88066849367552",
   "lastOpenFiles": [
-    "5 框架篇/gin框架.md",
-    "1 语言篇/go语言/问答篇/3、内存分配篇.md",
-    "1 语言篇/go语言/问答篇/4、垃圾回收篇.md",
-    "1 语言篇/go语言/问答篇/2、并发篇.md",
-    "1 语言篇/go语言/问答篇/0、基础篇.md",
-    "10 运维篇/docker 篇.md",
-    "6 项目篇/大文件传输.md",
-    "5 框架篇/grpc 框架.md",
     "3 网络篇/问答篇.md",
-    "8 消息队列篇/为什么kafka的效率那么高？.md"
+    "12 大数据篇/ES篇.md",
+    "5 框架篇/grpc 框架.md",
+    "11 题目篇/每日一题.md",
+    "10 运维篇/k8s篇.md",
+    "5 框架篇/gin框架.md",
+    "1 语言篇/go语言/问答篇/0、基础篇.md",
+    "1 语言篇/go语言/问答篇/2、并发篇.md",
+    "1 语言篇/go语言/问答篇/1、协程调度器篇.md",
+    "1 语言篇/go语言/问答篇/3、内存分配篇.md"
   ]
 }
