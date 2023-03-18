@@ -1,5 +1,47 @@
 
-# 括号生成--dfs
+# DFS
+
+## 岛屿问题
+
+### 岛屿的最大面积
+
+遇到1的时候就是面积，找到1连接的上下左右最大的
+
+```java
+int max = 0;  
+int cur = 0;  
+  
+public int maxAreaOfIsland(int[][] grid) {  
+    for (int i = 0; i < grid.length; i++) {  
+        for (int j = 0; j < grid[0].length; j++) {  
+            if (grid[i][j] == 1) {  
+                cur = 0;  
+                dfs(i, j, grid);  
+                max = Math.max(max, cur);  
+            }  
+        }  
+    }  
+    return max;  
+}  
+  
+public void dfs(int x, int y, int[][] grid) {  
+    if (x < 0 || y < 0 || x >= grid.length || y >= grid[0].length || grid[x][y] == 0) return;  
+  
+    if (grid[x][y] == 1) {  
+        grid[x][y] = 0;  
+        cur++;  
+    }  
+    dfs(x - 1, y, grid);  
+    dfs(x + 1, y, grid);  
+    dfs(x, y - 1, grid);  
+    dfs(x, y + 1, grid);  
+}
+```
+
+
+
+
+## 括号生成
 
 https://leetcode.cn/problems/generate-parentheses/
 

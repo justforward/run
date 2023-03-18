@@ -97,6 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "7 算法篇/数据结构基础/6、算法思想/2、双指针.md",
                 "mode": "source",
                 "source": false
@@ -110,6 +111,9 @@
               "type": "markdown",
               "state": {
                 "file": "5 框架篇/grpc 框架.md",
+=======
+                "file": "7 算法篇/数据结构基础/6、算法思想/4、动态规划.md",
+>>>>>>> 68f88cd (add)
                 "mode": "source",
                 "source": false
               }
@@ -182,7 +186,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5 框架篇/grpc 框架.md",
+                "file": "7 算法篇/数据结构基础/6、算法思想/4、动态规划.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +203,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5 框架篇/grpc 框架.md",
+                "file": "7 算法篇/数据结构基础/6、算法思想/4、动态规划.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +226,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5 框架篇/grpc 框架.md"
+                "file": "7 算法篇/数据结构基础/6、算法思想/4、动态规划.md"
               }
             }
           }
@@ -246,6 +250,7 @@
   "active": "0e4082f603d9e950",
   "lastOpenFiles": [
     "7 算法篇/数据结构基础/2、栈、队列、链表/栈.md",
+<<<<<<< HEAD
     "7 算法篇/数据结构基础/2、栈、队列、链表/链表.md",
     "Pasted image 20230315192726.png",
     "12 大数据篇/ES篇.md",
@@ -267,6 +272,9 @@
     "截屏2023-03-17 21.24.15.png",
     "截屏2023-03-17 21.23.07.png",
     "7 算法篇/数据结构基础/6、算法思想/1、二分.md",
+=======
+    "7 算法篇/数据结构基础/6、算法思想/3、dfs bfs 回溯.md",
+>>>>>>> 68f88cd (add)
     "7 算法篇/数据结构基础/6、算法思想/4、动态规划.md",
     "5 框架篇/gin框架.md",
     "5 框架篇/grpc 框架.md",
@@ -285,6 +293,12 @@
     "9 分布式篇/分布式一致性算法.md",
     "9 分布式篇",
     "8 消息队列篇",
+<<<<<<< HEAD
+=======
+    "Pasted image 20230312215715.png",
+    "7 算法篇/数据结构基础/6、算法思想/1、二分.md",
+    "7 算法篇/数据结构基础/6、算法思想/5、模拟 设计题.md",
+>>>>>>> 68f88cd (add)
     "7 算法篇/数据结构基础/3、位运算",
     "7 算法篇/数据结构基础/算法思想/动态规划",
     "7 算法篇/数据结构基础/6、算法思想",
