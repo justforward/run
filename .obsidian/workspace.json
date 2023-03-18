@@ -4,22 +4,119 @@
     "type": "split",
     "children": [
       {
-        "id": "919cd4141f916cd6",
+        "id": "d6de53ce47c258c1",
         "type": "tabs",
         "children": [
           {
-            "id": "4f088315d100e010",
+            "id": "2aafbae1da3fc394",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 网络篇/问答篇.md",
+                "file": "1 语言篇/go语言/问答篇/0、基础篇.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8ffca538831c00c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "7 算法篇/数据结构基础/2、栈、队列、链表/栈.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "38718af96ef97fd1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "7 算法篇/数据结构基础/6、算法思想/3、dfs bfs 回溯.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6f43d85eaf732f47",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "7 算法篇/数据结构基础/6、算法思想/4、动态规划.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dd1ca753d04e9c9b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "7 算法篇/数据结构基础/6、算法思想/1、二分.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0da7d0cf5a7cad71",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "7 算法篇/数据结构基础/6、算法思想/2、双指针.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a0c11c7e0d28da9f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "8 消息队列篇/kafka.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "50ac10fb071e7d78",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "7 算法篇/数据结构基础/6、算法思想/2、双指针.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0e4082f603d9e950",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5 框架篇/grpc 框架.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -69,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 409.5
+    "width": 300
   },
   "right": {
     "id": "b76cf6ace711568a",
@@ -85,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3 网络篇/问答篇.md",
+                "file": "5 框架篇/grpc 框架.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3 网络篇/问答篇.md",
+                "file": "5 框架篇/grpc 框架.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3 网络篇/问答篇.md"
+                "file": "5 框架篇/grpc 框架.md"
               }
             }
           }
@@ -138,25 +235,60 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "canvas:新建白板": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
-      "canvas:Create new canvas": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false
     }
   },
-  "active": "4f088315d100e010",
+  "active": "0e4082f603d9e950",
   "lastOpenFiles": [
-    "5 框架篇/grpc 框架.md",
-    "10 运维篇/k8s篇.md",
+    "7 算法篇/数据结构基础/2、栈、队列、链表/栈.md",
+    "7 算法篇/数据结构基础/2、栈、队列、链表/链表.md",
+    "Pasted image 20230315192726.png",
     "12 大数据篇/ES篇.md",
-    "0 run篇/准备的资料.md",
-    "3 网络篇/问答篇.md",
+    "12 大数据篇",
     "11 题目篇/每日一题.md",
+    "11 题目篇",
+    "10 运维篇/k8s篇.md",
+    "1 语言篇/go语言/问答篇/1、协程调度器篇.md",
+    "7 算法篇/数据结构基础/4、树/0、二叉树基础.md",
+    "7 算法篇/数据结构基础/6、算法思想/2、双指针.md",
+    "7 算法篇/数据结构基础/6、算法思想/3、dfs bfs 回溯.md",
+    "截屏2023-03-17 23.18.19.png",
+    "截屏2023-03-17 23.16.56.png",
+    "截屏2023-03-17 22.49.29.png",
+    "截屏2023-03-17 22.31.52.png",
+    "截屏2023-03-17 22.31.23.png",
+    "截屏2023-03-17 22.09.30.png",
+    "截屏2023-03-17 21.47.59.png",
+    "截屏2023-03-17 21.24.15.png",
+    "截屏2023-03-17 21.23.07.png",
+    "7 算法篇/数据结构基础/6、算法思想/1、二分.md",
+    "7 算法篇/数据结构基础/6、算法思想/4、动态规划.md",
     "5 框架篇/gin框架.md",
-    "1 语言篇/go语言/问答篇/0、基础篇.md",
-    "1 语言篇/go语言/问答篇/2、并发篇.md",
-    "1 语言篇/go语言/问答篇/1、协程调度器篇.md"
+    "5 框架篇/grpc 框架.md",
+    "4 操作系统篇/1 问答篇.md",
+    "8 消息队列篇/为什么kafka的效率那么高？.md",
+    "10 运维篇/docker 篇.md",
+    "10 运维篇",
+    "2 数据库篇/1 redis/day1.md",
+    "2 数据库篇/1 redis/day2.md",
+    "2 数据库篇/1 redis/day3.md",
+    "2 数据库篇/1 redis/day4.md",
+    "2 数据库篇/1 redis/day5.md",
+    "8 消息队列篇/kafka.md",
+    "8 消息队列篇/消息队列.md",
+    "9 消息队列篇/kafka/为什么kafka的效率那么高？.md",
+    "9 分布式篇/分布式一致性算法.md",
+    "9 分布式篇",
+    "8 消息队列篇",
+    "7 算法篇/数据结构基础/3、位运算",
+    "7 算法篇/数据结构基础/算法思想/动态规划",
+    "7 算法篇/数据结构基础/6、算法思想",
+    "7 算法篇/数据结构基础/1 排序",
+    "7 算法篇/数据结构基础/2、栈、队列、链表"
   ]
 }
