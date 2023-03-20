@@ -138,3 +138,23 @@ ack逻辑, 解决了消费者处理消息过程中挂了造成消息丢失的问
 
 3）消息堆积
 在创建`Stream`的队列时, 规定队列的最长长度, 当队列里面积压的消息超过限度时, 旧消息就会被扔掉了。
+
+
+# kafka集群中zk的作用
+
+1）kafka使用zk来管理broker和topic的元数据信息
+- 在broker启动的时候会向zk中注册自己的信息，同时在broker宕机的时候zk会移除这些基本信息
+- topic的信息：包括名称、分区数、副本数。
+- offset的管理，在kafka的消费者进行消费时候，在zk中记录自己消费到哪个offset。
+2）进行协调leader选举
+- 当一个broker或者分区的主副本可不用的时候，zk会通知其他broker进行重新选举新的leader
+- 一旦新的主副本被选取得到，那么kafka会更新元数据并且广播给所有的broker。
+3）进行负载均衡
+-   对于同一个 Topic 的不同 Partition，Kafka 会尽力将这些 Partition 分布到不同的 Broker 服务器上。当生产者产生 消息后也会尽量投递到不同 Broker 的 Partition 里面。当 Consumer 消 费的时候，Zookeeper 可以根据当前的 Partition 数量以及 Consumer 数 量来实现动态负载均衡。
+
+# kafka如何保证消息的顺序性
+
+总结一下，对于如何保证 Kafka 中消息消费的顺序，有了下面两种方法: 
+⚫ 1 个 Topic 只对应一个 Partition。  
+⚫ 发送消息的时候指定 key/Partition。将两个消息发送到同一个partition中。
+
