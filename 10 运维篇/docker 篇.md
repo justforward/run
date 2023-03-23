@@ -16,9 +16,9 @@ docker作为一个轻量级的容器，可以将用用户的应用程序和相�
 
 1.  Docker守护进程（Docker daemon）：Docker的核心组件，运行在主机上，用于管理Docker容器和镜像。
 2.  Docker客户端（Docker client）：命令行工具，可以通过Docker API与Docker守护进程交互，实现对容器和镜像的管理操作。
-3.  Docker镜像（Docker image）：一个只读的模板，用于创建Docker容器。Docker镜像可以包含一个操作系统和运行所需的应用程序和服务。
-4.  Docker容器（Docker container）：Docker镜像的运行实例，包含了应用程序和运行时环境。容器可以隔离在独立的文件系统中，相互之间不会产生影响。
-5.  Docker仓库（Docker registry）：用于存储Docker镜像的中央存储库。可以是公共的或私有的
+3.  Docker镜像（Docker image）：Docker镜像可以包含一个操作系统和用户的应用程序和依赖。
+4.  Docker容器（Docker container）：Docker镜像的运行实例，不同容器相互隔离。
+5.  Docker仓库（Docker registry）：用于存储Docker镜像的中央存储库。可以是公共的或私有的。
 
 # 2、docker相对于虚拟机的特点
 
