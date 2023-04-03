@@ -77,15 +77,15 @@ PVC
 
 # 网络
 
-
+一个节点（Node）是指一个物理机器或虚拟机
 
 
 1）同一个pod上的不同容器是如何通信的？共享命名空间的
 2）在同一个节点上的不同pod如何通信？可以基于 网桥的方式，比如docker容器是可以通过
-3） 不同节点的上pod通信？
-通过CNI（网络插件接口）方式，
+3） 不同节点的上pod通信？通过CNI（网络插件接口）方式，
 
 CNI 的工作原理是，每个 Pod 都会有一个虚拟网卡，该虚拟网卡通过一个名为 CNI 插件的二进制文件来配置，该插件负责将容器和宿主机的网络连接起来。这个插件需要在 Kubernetes 的每个节点上运行，并且在每个 Pod 中启动的容器都需要通过该插件进行网络配置。
+
 
 为每个pod分配一个虚拟网卡，
 
@@ -96,15 +96,33 @@ CNI 的工作原理是，每个 Pod 都会有一个虚拟网卡，该虚拟网�
 
 
 
+Flannel实现原理
 
-deploment
 
-statefulset
 
-service
+Flannel使用了虚拟二层网络技术，通过在每个节点上创建一个虚拟的二层网络，并为每个Pod分配一个唯一的IP地址，从而实现Pod之间的跨节点通信。
 
-kube-proxy
+在Flannel中，每个节点都有一个唯一的Subnet，Subnet是一个CIDR（CIDR（Classless Inter-Domain Routing，无分类域间路由）地址段是一种用于指定IP地址范围的标准化方法）地址段，它被用来为该节点上的Pod分配IP地址。例如，节点A的Subnet为10.244.0.0/16，节点B的Subnet为10.244.1.0/16，那么节点A上的Pod将会被分配10.244.0.0/24的IP地址段，节点B上的Pod将会被分配10.244.1.0/24的IP地址段。
 
-kercel——DNS 为server分配域名，做域名解析。
+当一个Pod在节点A上启动时，Flannel会为它分配一个本地IP地址，例如10.244.0.2，并在该节点上创建一个虚拟接口flannel.1，并将该接口的MAC地址设置为flannel.1接口的MTU和IP地址，从而模拟一个物理接口的行为。同时，Flannel会为该Pod创建一个路由规则，将目标地址为10.244.1.0/24的数据包发送到节点B上。
 
-ingress
+在节点B上，Flannel会为该Pod创建一个相同的虚拟接口flannel.1，并将它的MAC地址设置为与节点A上的flannel.1接口相同。当节点B收到从节点A发送来的数据包时，它会将数据包从flannel.1接口转发到目标Pod的网络命名空间中，并将目标MAC地址设置为该Pod的MAC地址。
+
+
+Flannel使用了虚拟二层网络技术，通过agent在每个节点上创建一个虚拟的二层网络，并为每个pod分配一个唯一的IP地址，从而实现pod之间的跨节点通信。
+
+
+Flannel的源码实现分为两部分：Flannel Agent和Flannel Backend。
+
+Flannel Agent是运行在每个节点上的进程，它负责将虚拟网络接口flannel.1创建和维护，并且在Pod启动和停止时为它们分配和释放IP地址。
+
+Flannel Backend是一个键值存储系统，用于保存节点和Subnet的映射关系，并为每个节点分配唯一的Subnet。常见的Flannel Backend有etcd、Consul等。
+
+
+VXLAN 在 VTEP 间建立隧道，通过 Layer 3 网络传输封装后的 Layer 2 数据。
+
+
+图中 Host-A 和 Host-B 位于 VNI 10 的 VXLAN，通过 VTEP-1 和 VTEP-2 之间建立的 VXLAN 隧道通信。  
+数据传输过程如下：
+
+
